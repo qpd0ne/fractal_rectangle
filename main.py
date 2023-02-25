@@ -17,4 +17,4 @@ def fractal_rectangle(A, B, C, D, deep=100):
 
 
 fractal_rectangle((100, 100), (500, 100), (500, 500), (100, 500))
-print("done")
+print("complete")
