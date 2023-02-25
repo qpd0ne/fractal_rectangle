@@ -4,7 +4,7 @@ window = gr.GraphWin("Cubes", 600, 600)
 alpha = 0.05
 
 
-def fractal_rectangle(A, B, C, D, deep=500):
+def fractal_rectangle(A, B, C, D, deep=200):
     if deep < 1:
         return
     for M, N in (A, B), (B, C), (C, D), (D, A):
